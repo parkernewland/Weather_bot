@@ -7,3 +7,4 @@ describe('index', function() {
         assert.equal(result, 32)
     })
 });
+
