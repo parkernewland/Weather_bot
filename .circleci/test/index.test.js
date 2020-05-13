@@ -1,6 +1,6 @@
 const mocha = require('mocha');
 const assert = require('chai').assert;
-const index = require('../index');
+const index = require('../../functions/index');
 describe('index', function() {
     it('Converts Kelvin to Fahrenheit', function () {
         let result = index.KtoF(273.15);
